@@ -1,6 +1,6 @@
 <html lang="ES">
     <head>
-        <title>Chinito 2</title>
+        <title>Chinito 3</title>
         <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
         <link rel="stylesheet" href="/css/style.css">
     </head>
