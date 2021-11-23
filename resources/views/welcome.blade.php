@@ -4,8 +4,7 @@
         <link rel="stylesheet" href="/css/style.css">
         <link rel="stylesheet" href="/css/custom.css">
     </head>
-    <body>
-    <div class="vin">
+    <body class="bg3">
         <div class="container mx-auto my-10">
 {{--                <div class="w-80 rounded-md shadow-2xl bg-white">--}}
 {{--                    <div class="h-40 imgmon rounded-t-md">--}}
@@ -21,9 +20,7 @@
 {{--                        <div class="inline bg-gray-200 m-1 rounded-full py-1 px-2">#winter</div>--}}
 {{--                    </div>--}}
 {{--                </div>--}}
-
         </div>
-    </div>
     @extends('templates/master')
     </body>
 </html>
