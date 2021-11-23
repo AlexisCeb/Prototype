@@ -1,0 +1,14 @@
+body{
+    background-image: url("https://wallpaperaccess.com/full/5143161.jpg");
+    background-size: cover;
+    object-position: center;
+}
+.imgmon {
+    overflow: hidden;
+}
+.imgmon img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 0px -15px;
+}
