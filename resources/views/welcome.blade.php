@@ -1,26 +1,9 @@
-<html lang="ES">
-    <head>
-        <title>Chinito 3</title>
-        <link rel="stylesheet" href="/css/style.css">
-        <link rel="stylesheet" href="/css/custom.css">
-    </head>
-    <body class="bg3">
-        <div class="container mx-auto my-10">
-{{--                <div class="w-80 rounded-md shadow-2xl bg-white">--}}
-{{--                    <div class="h-40 imgmon rounded-t-md">--}}
-{{--                        <img src="https://www.atlasandboots.com/wp-content/uploads/2019/05/ama-dablam2-most-beautiful-mountains-in-the-world.jpg" alt="">--}}
-{{--                    </div>--}}
-{{--                    <div class="px-4 py-3 text-gray-600">--}}
-{{--                        <div class="text-lg font-bold">The Coldest Sunset</div>--}}
-{{--                        <div class="text-sm pr-3 py-2">Lorem impsum dolor sit amet, consecteur adipicing elit. Voluptatibus quia, nulla! Maiores et preferendis eaque, exercitationem praesentium nihil</div>--}}
-{{--                    </div>--}}
-{{--                    <div class="text-xs text-gray-600 font-bold pt-2 pb-5 px-3">--}}
-{{--                        <div class="inline bg-gray-200 m-1 rounded-full py-1 px-2">#photography</div>--}}
-{{--                        <div class="inline bg-gray-200 m-1 rounded-full py-1 px-2">#travel</div>--}}
-{{--                        <div class="inline bg-gray-200 m-1 rounded-full py-1 px-2">#winter</div>--}}
-{{--                    </div>--}}
-{{--                </div>--}}
+@extends('templates/master')
+@section('contenido')
+    <div class="container mt-10 mx-auto">
+        <div class="grid md:grid-cols-2 md:items-center content-center justify-center divide-y md:divide-y-0 md:divide-x bg-white p-5 rounded-md h-3/4">
+            <div class="pb-10 md:pb-0 md:pr-5 pr-0 text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab asperiores dolor enim fuga impedit officia officiis quia quidem rem vero voluptate, voluptates. Ab deserunt in libero, modi unde vel vero?</div>
+            <div class="pt-10 md:pt-0 md:pl-5 pl-0 text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet, assumenda aut autem consectetur consequatur eligendi exercitationem fugiat harum in itaque laborum laudantium molestias neque nesciunt obcaecati, perferendis ratione reprehenderit saepe.</div>
         </div>
-    @extends('templates/master')
-    </body>
-</html>
+    </div>
+    @stop

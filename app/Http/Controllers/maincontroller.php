@@ -6,5 +6,7 @@ use Illuminate\Http\Request;
 
 class maincontroller extends Controller
 {
-    /*Aqui pondremos todo de controladores*/
+    public function inicio () {
+        return view('welcome');
+    }
 }

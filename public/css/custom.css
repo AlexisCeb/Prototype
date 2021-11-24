@@ -1,22 +1,27 @@
 body{
     background-size: cover;
-    object-position: center;
+    object-position: top;
 }
 .bg1{
     background-image: url("https://images.wallpaperscraft.com/image/single/forest_fog_trees_128751_1920x1080.jpg");
 }
 .bg2{
-    background-image: url("https://images.wallpaperscraft.com/image/single/fog_forest_path_125819_2560x1600.jpg");
+    background-color: #4a5568;
 }
 .bg3{
     background-image: url("https://images.wallpaperscraft.com/image/single/winter_mountains_snow_130143_2560x1600.jpg");
 }
-.imgmon {
-    overflow: hidden;
+nav.current{
+    background-color: red;
 }
-.imgmon img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    object-position: 0px -15px;
-}
+
+
+/*.imgmon {*/
+/*    overflow: hidden;*/
+/*}*/
+/*.imgmon img {*/
+/*    width: 100%;*/
+/*    height: 100%;*/
+/*    object-fit: cover;*/
+/*    object-position: 0px -15px;*/
+/*}*/
