@@ -17,7 +17,7 @@
                                 <input id="password" name="password" type="password" required class="appearance-none rounded-none relative block w-full px-3 py-2 border border-gray-300 placeholder-gray-500 text-gray-900 rounded-b-md focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 focus:z-10 sm:text-sm" placeholder="Contrase&ntilde;a">
                             </div>
                         </div>
-                        <div>
+                        <div class="pt-5">
                             <button type="submit" class="group relative w-full flex justify-center py-2 px-4 border border-transparent text-sm font-medium rounded-md text-white bg-gradient-to-r from-green-400 to-blue-500 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
                               <span class="absolute left-0 inset-y-0 flex items-center pl-3">
                                 <svg class="h-5 w-5 text-indigo-500 group-hover:text-indigo-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
@@ -29,12 +29,6 @@
                         </div>
                     </form>
                 </div>
-
-
-
-
-
-
             </div>
             <div class="pt-10 md:pt-0 md:pl-5 pl-0 text-center grid-1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet, assumenda aut autem consectetur consequatur eligendi exercitationem fugiat harum in itaque laborum laudantium molestias neque nesciunt obcaecati, perferendis ratione reprehenderit saepe.</div>
         </div>
