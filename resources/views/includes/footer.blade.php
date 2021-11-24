@@ -1,16 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Footer</title>
-    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
-</head>
-{{--Si estás viendo ésto, mañana modifico lo q falta srry, temgo sueño--}}
-<body>
 <footer class="bg-gradient-to-r from-gray-500 via-indigo-900 to-gray-800 h-64 px-full py-4">
-
     <div class="lg:flex">
         <div class="w-full -mx-6 lg:w-2/5">
             <div class="px-20">
