@@ -10,6 +10,6 @@
 @yield('contenido')
 </body>
 <footer>
-{{--    @include('includes/footer')--}}
+{{--@include('includes/footer')--}}
 </footer>
 </html>
