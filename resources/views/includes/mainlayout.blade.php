@@ -6,7 +6,7 @@
     @include('includes/header')
     <script src="/js/app.js"></script>
 </head>
-<body class="bg2 bg-cover bg-bottom bg-fixed">
+<body class="bg3 bg-cover bg-bottom bg-fixed">
 @yield('contenido')
 </body>
 <footer>

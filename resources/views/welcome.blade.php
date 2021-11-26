@@ -1,9 +1,10 @@
 @extends('templates/master')
 @section('contenido')
-    <div class="container mt-10 mx-auto">
-        <div class="grid md:grid-cols-2 md:items-center content-center justify-center divide-y md:divide-y-0 md:divide-x bg-white p-5 rounded-md sm:h-3/4 shadow-2xl">
+    <div class="container mt-10 mx-auto mb-5">
+        <div class="grid md:grid-cols-2 md:items-center content-center justify-center divide-y md:divide-y-0 md:divide-x divide-gray-400 bg-gray-200 p-5 rounded-md md:h-3/4 shadow-inner">
             <div class="pb-3 md:pb-0 md:pr-5 pr-0 text-center">
                 <div class="grid m-4 items-center content-center justify-center">
+                    <div class="shadow-2xl w-96 p-10 px-24 bg-white rounded-md">
                     <div class="w-auto font-Oswald text-gray-700 text-6xl uppercase m-6 mb-7">Login</div>
                     <form class="mt-8" action="#" method="POST">
                         <input type="hidden" name="remember" value="true">
@@ -30,7 +31,21 @@
                     </form>
                 </div>
             </div>
-            <div class="pt-10 md:pt-0 md:pl-5 pl-0 text-center grid-1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet, assumenda aut autem consectetur consequatur eligendi exercitationem fugiat harum in itaque laborum laudantium molestias neque nesciunt obcaecati, perferendis ratione reprehenderit saepe.</div>
+            </div>
+                        <div class="grid m-4 content-center justify-center text-center">
+                            <div class="shadow-2xl w-96 px-24 bg-white rounded-md">
+                                <div class="w-auto font-Oswald text-gray-700 text-3xl uppercase m-6 mb-7">Actualizaciones</div>
+                            </div>
+                            <div class="shadow-2xl w-96 px-24 bg-white rounded-md mt-10">
+                                <div class="w-auto font-Oswald text-gray-700 text-3xl uppercase m-6 mb-7">Actualizaciones</div>
+                            </div>
+                            <a href="#"><div class="shadow-2xl w-96 p-1 px-24 rounded-md mt-10 bg-gradient-to-r from-red-400 to-purple-500 hover:from-purple-500 hover:to-green-500">
+
+                                <div class="w-auto font-Oswald text-white text-3xl uppercase m-6 mb-7">Comenzar <br> <span class="text-sm">(Sin iniciar sesi&oacute;n)</span></div>
+                            </div>
+                            </a>
+
+                        </div>
         </div>
-    </div>
+
     @stop
