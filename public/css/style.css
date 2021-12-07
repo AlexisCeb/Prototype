@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
 /*! tailwindcss v2.2.19 | MIT License | https://tailwindcss.com */
 
 /*! modern-normalize v1.1.0 | MIT License | https://github.com/sindresorhus/modern-normalize */
@@ -22491,6 +22493,10 @@ video {
 
 .font-Oswald{
   font-family: Oswald;
+}
+
+.font-BebasNeue{
+  font-family: Bebas Neue;
 }
 
 .text-xs{
@@ -54269,6 +54275,10 @@ video {
     font-family: Oswald;
   }
 
+  .sm\:font-BebasNeue{
+    font-family: Bebas Neue;
+  }
+
   .sm\:text-xs{
     font-size: 0.75rem;
     line-height: 1rem;
@@ -85687,6 +85697,10 @@ video {
 
   .md\:font-Oswald{
     font-family: Oswald;
+  }
+
+  .md\:font-BebasNeue{
+    font-family: Bebas Neue;
   }
 
   .md\:text-xs{
@@ -117109,6 +117123,10 @@ video {
     font-family: Oswald;
   }
 
+  .lg\:font-BebasNeue{
+    font-family: Bebas Neue;
+  }
+
   .lg\:text-xs{
     font-size: 0.75rem;
     line-height: 1rem;
@@ -148529,6 +148547,10 @@ video {
     font-family: Oswald;
   }
 
+  .xl\:font-BebasNeue{
+    font-family: Bebas Neue;
+  }
+
   .xl\:text-xs{
     font-size: 0.75rem;
     line-height: 1rem;
@@ -179947,6 +179969,10 @@ video {
 
   .\32xl\:font-Oswald{
     font-family: Oswald;
+  }
+
+  .\32xl\:font-BebasNeue{
+    font-family: Bebas Neue;
   }
 
   .\32xl\:text-xs{

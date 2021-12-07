@@ -11,8 +11,13 @@ body{
 .bg3{
     background-image: url("https://images.wallpaperscraft.com/image/single/winter_mountains_snow_130143_2560x1600.jpg");
 }
-nav.current{
-    background-color: red;
+.bg4{
+    background-image: url("https://i.pinimg.com/originals/6d/4d/d4/6d4dd4b57c1cfc2bcac4c4c9762ddc77.gif");
+
+    object-position: center;
+}
+.h-68{
+    height: 16.5rem;
 }
 
 

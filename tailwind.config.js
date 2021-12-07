@@ -7,7 +7,8 @@ module.exports = {
                 avocado: '#9AE66E'
             },
             fontFamily: {
-                'Oswald':['Oswald']
+                'Oswald':['Oswald'],
+                'BebasNeue':['Bebas Neue']
             },
             minHeight: {
                 '0': '0',
