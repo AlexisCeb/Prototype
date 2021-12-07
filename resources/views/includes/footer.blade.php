@@ -1,4 +1,4 @@
-<footer>
+<footer class="select-none">
 {{--<footer class="bg-gradient-to-r from-gray-500 via-indigo-900 to-gray-800 h-64 px-full py-4">--}}
 {{--    <div class="lg:flex">--}}
 {{--        <div class="w-full -mx-6 lg:w-2/5">--}}
@@ -45,9 +45,9 @@
 {{--        </div>--}}
 {{--    </div>--}}
     <div class="hidden md:block fixed bottom-0 left-0 w-full py-1 bg-opacity-40 bg-gray-900">
-        <p class="text-center text-white text-opacity-70">&copy; 2021 | Centro de Bachillerato Tecnológico Industrial y de Servicios no.122 | Programación 5°F </p>
+        <p class="text-center text-white text-opacity-70">&copy; 2021 | @SikkertWeb - CBTIS122 | Programación 5°F </p>
     </div>
     <div class="block md:hidden fixed bottom-0 left-0 w-full py-0.5 bg-opacity-30 bg-gray-900">
-        <p class="text-center text-white text-opacity-70 text-sm">&copy; 2021 | CBTIS no.122 | 5°F </p>
+        <p class="text-center text-white text-opacity-70 text-sm">&copy; 2021 | @SikkertWeb | 5°F </p>
     </div>
 </footer>
