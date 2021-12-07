@@ -9,7 +9,7 @@ class maincontroller extends Controller
     public function inicio () {
         return view('inicio');
     }
-    public function borrador () {
-        return view('borrador');
+    public function fakepubli () {
+        return view('fakepubli');
     }
 }
