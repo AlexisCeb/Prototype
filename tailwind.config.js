@@ -1,6 +1,5 @@
 module.exports = {
-  purge: [],
-  darkMode: false, // or 'media' or 'class'
+    content: ["./resources/views/*.{html,js,php}","./resources/views/*/*.{html,js,php}"],
     theme: {
         extend: {
             colors: {
@@ -19,8 +18,5 @@ module.exports = {
             }
         },
     },
-  variants: {
-    extend: {},
-  },
   plugins: [],
 }
