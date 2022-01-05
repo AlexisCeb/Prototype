@@ -9,10 +9,6 @@ togglelogin.addEventListener('click', () => {
     loginframe.classList.toggle('hidden')
     logincont.classList.toggle('md:grid-cols-2')
     logincont.classList.toggle('divide-gray-300')
-    search1.classList.toggle('w-full')
-    search1.classList.toggle('w-7/12')
-    searchbutton1.classList.toggle('hidden')
-    searchbutton2.classList.toggle('hidden')
 })
 togglemobil.addEventListener('click', () => {
     loginframe.classList.toggle('hidden')

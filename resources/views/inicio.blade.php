@@ -9,27 +9,51 @@
 <div class="container mx-auto mt-10 select-none">
     <div class="grid p-2 md:p-5  mb-24 md:mb-0 bg-purple-100 rounded-md shadow-xl divide-y md:divide-y-0 md:divide-x divide-gray-300" id="logincont" style="min-height: 70vh">
         <div class="hidden flex items-center justify-center py-10 md:py-0 pb-15 md:pb-0" id="loginframe">
-            <div class="text-center bg-white px-8 pt-8 w-64 rounded-md shadow-2xl">
-                <p class="uppercase font-Oswald text-6xl">Login</p>
+{{--            <div class="text-center bg-white px-8 pt-8 w-64 rounded-md shadow-2xl">--}}
+{{--                <p class="uppercase font-Oswald text-6xl">Login</p>--}}
+{{--                <form action="{{route('login')}}" method="POST">--}}
+{{--                    {{csrf_field()}}--}}
+{{--                    <div>--}}
+{{--                        <div class="mt-5 rounded-md ring-4 ring-indigo-400 p-0.5">--}}
+{{--                            <div class="pb-0.5 border-b border-gray-100">--}}
+{{--                                <label for="user" class="sr-only">Usuario</label>--}}
+{{--                                <input id="user" name="user" type="text" required class="rounded-t-md w-full text-sm p-1 px-3 ring-2 ring-white focus:ring-2 focus:outline-none focus:ring-purple-700" placeholder="Usuario">--}}
+{{--                            </div>--}}
+{{--                            <div>--}}
+{{--                                <label for="pass" class="sr-only">Contrase&ntilde;a</label>--}}
+{{--                                <input id="pass" name="pass" type="password" required class="rounded-b-md w-full text-sm p-1 px-3 ring-2 ring-white focus:ring-2 focus:outline-none focus:ring-purple-700" placeholder="Contrase&ntilde;a">--}}
+{{--                            </div>--}}
+{{--                        </div>--}}
+{{--                        <div class="pt-4">--}}
+{{--                            <button type="submit" class="text-white font-Oswald text-2xl p-1 px-3 rounded-md bg4">DALE</button>--}}
+{{--                        </div>--}}
+{{--                    </div>--}}
+{{--                </form>--}}
+{{--            </div>--}}
+            <div class="absolute z-0 bg-red-500 font-BebasNeue text-3xl xl:text-6xl text-gray-200 bg-opacity-70 text-center rounded-lg px-2 -rotate-12">Temporalmente desactivado</div>
+            <div class="absolute z-0 bg-red-500 font-BebasNeue text-3xl xl:text-6xl text-gray-200 bg-opacity-70 text-center rounded-lg px-2 rotate-12">Temporalmente desactivado</div>
+            <div class="text-center bg-gray-200 px-8 pt-8 w-64 rounded-md shadow-2xl">
+                <p class="uppercase font-Oswald text-6xl text-gray-600">Login</p>
                 <form action="{{route('login')}}" method="POST">
                     {{csrf_field()}}
                     <div>
-                        <div class="mt-5 rounded-md ring-4 ring-indigo-400 p-0.5">
+                        <div class="mt-5 rounded-md ring-4 ring-gray-400 p-0.5 bg-gray-400">
                             <div class="pb-0.5 border-b border-gray-100">
                                 <label for="user" class="sr-only">Usuario</label>
-                                <input id="user" name="user" type="text" required class="rounded-t-md w-full text-sm p-1 px-3 ring-2 ring-white focus:ring-2 focus:outline-none focus:ring-purple-700" placeholder="Usuario">
+                                <input disabled id="user" name="user" type="text" required class="rounded-t-md w-full text-sm p-1 px-3 ring-2 ring-gray-400 focus:ring-2 focus:outline-none focus:ring-purple-700" placeholder="Usuario">
                             </div>
                             <div>
                                 <label for="pass" class="sr-only">Contrase&ntilde;a</label>
-                                <input id="pass" name="pass" type="password" required class="rounded-b-md w-full text-sm p-1 px-3 ring-2 ring-white focus:ring-2 focus:outline-none focus:ring-purple-700" placeholder="Contrase&ntilde;a">
+                                <input disabled id="pass" name="pass" type="password" required class="rounded-b-md w-full text-sm p-1 px-3 ring-2 ring-gray-400 focus:ring-2 focus:outline-none focus:ring-purple-700" placeholder="Contrase&ntilde;a">
                             </div>
                         </div>
                         <div class="pt-4">
-                            <button type="submit" class="text-white font-Oswald text-2xl p-1 px-3 rounded-md bg4">DALE</button>
+                            <button disabled type="submit" class="text-gray-300 font-Oswald text-2xl p-1 px-3 rounded-md bg-gray-500">DALE</button>
                         </div>
                     </div>
                 </form>
             </div>
+
         </div>
         <div class="appearance-none font-BebasNeue text-4xl text-white p-3 md:px-10 flex flex-wrap content-center gap-6">
             <div id="ele1_2" class="bg-purple-700 shadow-inner rounded-md w-full text-center pt-5 pb-1 px-5 mt-7 md:mt-0">
@@ -83,10 +107,12 @@
             </div>
 
             <div class="w-full relative z-0 flex justify-center">
-                <input type="text" class="block xl:hidden w-full p-2 pt-3 px-5 rounded-md bg-purple-200 text-indigo-500 placeholder-purple-800 focus:placeholder-purple-500 focus:outline-none focus:ring-2 focus:ring-indigo-400 focus:text-indigo-700" placeholder="Buscador" />
-                <input id="search1" type="text" class="hidden xl:block w-full p-2 pt-3 pl-5 px-5 rounded-md bg-purple-200 text-indigo-500 placeholder-purple-800 focus:placeholder-purple-500 focus:outline-none focus:ring-2 focus:ring-indigo-400 focus:text-indigo-700" placeholder="&#191;No encontraste lo que buscabas?" />
-                <button id="searchbutton1" class="text-black absolute inset-y-4 right-4"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Search_font_awesome.svg/1200px-Search_font_awesome.svg.png" alt="" class="h-9 w-auto" /></button>
-                <button id="searchbutton2" class="hidden text-black absolute inset-y-4 right-64"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Search_font_awesome.svg/1200px-Search_font_awesome.svg.png" alt="" class="h-9 w-auto" /></button>
+                    <input type="text" class="block lg:hidden relative left-5 w-full p-2 pt-3 px-5 rounded-md bg-purple-200 text-indigo-500 placeholder-purple-800 focus:placeholder-purple-500 focus:outline-none focus:ring-2 focus:ring-indigo-400 focus:text-indigo-700" placeholder="Buscador" />
+                    <input type="text" class="hidden lg:block relative left-5 w-full p-2 pt-3 px-5 rounded-md bg-purple-200 text-indigo-500 placeholder-purple-800 focus:placeholder-purple-500 focus:outline-none focus:ring-2 focus:ring-indigo-400 focus:text-indigo-700" placeholder="Est&aacute;s buscando algo?" />
+
+                    <button id="searchbutton2" class="relative right-10">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Search_font_awesome.svg/1200px-Search_font_awesome.svg.png" alt="" class="h-9 w-auto" />
+                    </button>
             </div>
         </div>
     </div>

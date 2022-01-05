@@ -7,7 +7,8 @@
         "watch-poll": "mix watch -- --watch-options-poll=1000",
         "hot": "mix watch --hot",
         "prod": "npm run production",
-        "production": "mix --production"
+        "production": "mix --production",
+        "tailbuild": "npx tailwindcss -i ./src/input.css -o ./public/css/style.css --watch"
     },
     "devDependencies": {
         "autoprefixer": "^10.4.1",
@@ -18,8 +19,5 @@
         "lodash": "^4.17.19",
         "postcss": "^8.4.5",
         "tailwindcss": "^3.0.10"
-    },
-    "scripts": {
-        "tailbuild": "npx tailwindcss -i ./src/input.css -o ./public/css/style.css --watch"
     }
 }
